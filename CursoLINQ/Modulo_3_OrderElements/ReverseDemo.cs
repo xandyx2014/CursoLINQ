@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoLINQ.Modulo_3
+namespace CursoLINQ.Modulo_3_OrderElements
 {
     public class ReverseDemo
     {
-        public void Ejemplo()
+        public static void Ejemplo()
         {
+            // reverse trabaja mejor en un Enumarable que en una list
             var personas = new List<Persona>() {
                             new Persona { Nombre = "Eduardo", Edad = 30, FechaIngresoALaEmpresa = new DateTime(2021, 1, 2), Soltero = true },
                             new Persona { Nombre = "Nidia", Edad = 19, FechaIngresoALaEmpresa = new DateTime(2015, 11, 22), Soltero = true },
