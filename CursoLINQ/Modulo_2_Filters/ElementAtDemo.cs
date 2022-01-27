@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoLINQ.Modulo_2
+namespace CursoLINQ.Modulo_2_Filters
 {
     public class ElementAtDemo
     {
-        public void Ejemplo()
+        public static void Ejemplo()
         {
             var personas = new List<Persona>() {
     new Persona { Nombre = "Eduardo", Edad = 30, FechaIngresoALaEmpresa = new DateTime(2021, 1, 2), Soltero = true },

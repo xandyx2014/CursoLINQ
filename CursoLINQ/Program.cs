@@ -1,3 +1,3 @@
-﻿using CursoLINQ;
-
-Console.WriteLine("El código de ejemplo se encuentra en las respectivas carpetas");
+﻿/*using CursoLINQ.Modulo_2_Filters;
+LastDemo.Ejemplo();*/
+Console.ReadLine();

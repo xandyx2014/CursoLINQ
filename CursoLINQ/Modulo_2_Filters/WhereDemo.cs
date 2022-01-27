@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoLINQ.Modulo_2
+namespace CursoLINQ.Modulo_2_Filters
 {
     public class WhereDemo
     {
-        public void Ejemplo()
+        public static void Ejemplo()
         {
             int[] numeros = Enumerable.Range(1, 20).ToArray();
 
